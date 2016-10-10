@@ -5,78 +5,106 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>CSSstudies</title>
-    <link rel="stylesheet" href="tabs.css">
+    <link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
   </head>
   <body>
-    <h1>Say hello to CSSstudies, the first CSS study group in Berlin.</h1>
-    <p>
-      CSSstudies will be a weekly study group for all things HTML &amp; CSS. Following a curriculum, each week we will cover a certain aspect while building a website. This way, all the possibilities shall be explored in detail while providing instant practice.
-    </p>
-    <h2>Who is this for?</h2>
-    <p>
-      The group aims at people who want to learn about HTML and CSS from scratch and then dive into all the details. It is for everyone who wants learn within a group as well as in a coached and guided setup where there is time and space for each and every question.
-    </p>
-    <p>
-      Did you always want to learn building websites? Or dabbled around with it a bit, but never really found a good starting point where to continue? Or have a feeling of being overwhelmed? Or feel demotivated learning all by yourself? CSSstudies is for you then.
-    </p>
-    <p>
-      You already know about HTML and CSS? Maybe there are colleagues, friends, family, … for whom the group is suitable. Please spread the word, tell them about it and encourage them to join.
-    </p>
-    <p>
-      CSSstudies shall offer a welcoming and safe environment, aiming to be attentative towards explicit as well as the more subtle toxic behaviours that can put off other people. Details for a Code of Conduct are not yet in place, but will be announced soon.
-    </p>
-    <h2>The curriculum</h2>
-    <p>
-      There will be a curriculum. At first, we will work through Shay Howe’s Tutorial, but also spice it up with other tutorials where suitable – such as the CSSclasses materials or the learnlayout.com site or the flexbox froggy.
-    </p>
-    <p>
-      The idea for each week is to learn about a certain aspect, clear questions, and then instantly use the knowledge, play around with the options, break stuff, clear questions, rinse &amp; repeat.
-    </p>
-    <p>
-      The general flow for each session is supposed to be like this:
-    </p>
-    <ul>
-      <li>Recap I: summarize the previous session</li>
-      <li>Work through the current chapter, address terminology, concepts, etc.</li>
-      <li>Code along, play around, break stuff</li>
-      <li>Do all this while addressing questions</li>
-      <li>Recap II: Round up what has been addressed during the session</li>
-      <li>Preview for the next session</li>
-    </ul>
-    <h2>The topics</h2>
-    <p>
-      We will cover all kinds of topics related to HTML and CSS:
-    </p>
-    <ul>
-      <li>Basic terminology, box model, …</li>
-      <li>Tools & useful helper sites, …</li>
-      <li>Layouts, positioning, …</li>
-      <li>HTML meta tags, semantic HTML, …</li>
-      <li>Typical website content, menus, forms, …</li>
-      <li>Transformations, animations, …</li>
-      <li>Cascade, specificity, parsing, resets, …</li>
-      <li>Typography, images, …</li>
-      <li>Variables, modules, Sass, …</li>
-    </ul>
-    <p>
-      (Not necessarily in this order. And no, this is by no means a complete list.)
-    </p>
-    <h2>When will we meet?</h2>
-    <p>
-      Session will be each wednesday alongside the Web Frontend Co-Learning at co.up. The start of the weekly sessions will be October 26th, 7.30pm.
-    </p>
-    <p>
-      There will be a kickoff at CSSclasses on October 23rd, also at co.up.
-    </p>
-    <p>
-      If you read this at a later time, don't worry. We will find a way to get you heads up.
-    </p>
-    <h2>Who will be coaching?</h2>
-    <p>
-      The group is founded by Katrin Kampfrath who will also be a coach. Ideally, though, the group should have 2, maybe 3 main coaches to join the knowledge, share the time, distribute over several shoulders basically. If you are interested, feel free to contact via Twitter (DMs are open).
-    </p>
-    <p>
-      More infos can be found on Twitter. The website will be here on Github, however there’s not yet much to see since it’s supposed to grow with and within the group.
-    </p>
+    <header>
+      <img src="img/CSSstudies-black.png" alt="Logo CSSstudies" class="logo">
+    </header>
+
+    <div class="wrapper">
+      <h1>Say hello to CSSstudies – <br>the first CSS study group in Berlin.</h1>
+      <p>
+        CSSstudies will be a weekly study group for all things HTML &amp; CSS. Following a curriculum, each week we will cover a certain aspect while building a website. This way, all the possibilities shall be explored in detail while providing instant practice.
+      </p>
+      <ul class="menu" role="navigation">
+        <li><a href="#target-group">Who is this for?</a></li>
+        <li><a href="#curriculum">Curriculum</a></li>
+        <li><a href="#topics">Topics</a></li>
+        <li><a href="#time">Meeting time</a></li>
+        <li><a href="#coach">Coaches</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <section id="target-group">
+        <h2>Who is this for?</h2>
+        <p>
+          The group aims at people who want to learn about HTML and CSS from scratch and then dive into all the details. It is for everyone who wants learn within a group as well as in a coached and guided setup where there is time and space for each and every question.
+        </p>
+        <p>
+          Did you always want to learn building websites? Or dabbled around with it a bit, but never really found a good starting point where to continue? Or have a feeling of being overwhelmed? Or feel demotivated learning all by yourself? CSSstudies is for you then.
+        </p>
+        <p>
+          You already know about HTML and CSS? Maybe there are colleagues, friends, family, … for whom the group is suitable. Please spread the word, tell them about it and encourage them to join.
+        </p>
+        <p>
+          CSSstudies shall offer a welcoming and safe environment, aiming to be attentative towards explicit as well as the more subtle toxic behaviours that can put off other people. Details for a Code of Conduct are not yet in place, but will be announced soon.
+        </p>
+      </section>
+      <section id="curriculum">
+        <h2>The curriculum</h2>
+        <p>
+          There will be a curriculum. At first, we will work through <a href="http://learn.shayhowe.com/" title="Shay Howe's HTML and CSS Tutorial">Shay Howe’s Tutorial</a>, but also spice it up with other tutorials where suitable – such as the <a href="http://cssclass.es/materials" title="CSSclasses materials">CSSclasses materials</a> or <a href="http://learnlayout.com/" title="Website of Learn CSS layout">learn CSS layout</a> or the <a href="http://flexboxfroggy.com/" title="Flexbox froggy, a flexbox game">flexbox froggy</a>.
+        </p>
+        <p>
+          The idea for each week is to learn about a certain aspect, clear questions, and then instantly use the knowledge, play around with the options, break stuff, clear questions, rinse &amp; repeat.
+        </p>
+        <p>
+          The general flow for each session is supposed to be like this:
+        </p>
+        <ul>
+          <li>Recap I: summarize the previous session</li>
+          <li>Work through the current chapter, address terminology, concepts, etc.</li>
+          <li>Code along, play around, break stuff</li>
+          <li>Do all this while addressing questions</li>
+          <li>Recap II: Round up what has been addressed during the session</li>
+          <li>Preview for the next session</li>
+        </ul>
+      </section>
+      <section id="topics">
+        <h2>The topics</h2>
+        <p>
+          We will cover all kinds of topics related to HTML and CSS:
+        </p>
+        <ul>
+          <li>Basic terminology, box model, …</li>
+          <li>Tools &amp; useful helper sites, …</li>
+          <li>Layouts, positioning, …</li>
+          <li>HTML meta tags, semantic HTML, …</li>
+          <li>Typical website content, menus, forms, …</li>
+          <li>Transformations, animations, …</li>
+          <li>Cascade, specificity, parsing, resets, …</li>
+          <li>Typography, images, …</li>
+          <li>Variables, modules, Sass, …</li>
+        </ul>
+        <p>
+          (Not necessarily in this order. And no, this is by no means a complete list.)
+        </p>
+      </section>
+      <section id="time">
+        <h2>When will we meet?</h2>
+        <p>
+          Sessions will be each wednesday alongside the Web Frontend Co-Learning at co.up (see the <a href="http://www.meetup.com/de-DE/opentechschool-berlin/" title="Meetup page of OpenTechSchool Berlin">OpenTechSchool Berlin page on meetup</a>). The start of the weekly sessions will be October 26th, 7.30pm.
+        </p>
+        <p>
+          There will be a kickoff at <a href="http://cssclass.es/" title="Website of CSSclasses">CSSclasses</a> on October 23rd, also at co.up.
+        </p>
+        <p>
+          If you read this at a later time, don't worry. Get in touch and we will find a way to get you heads up.
+        </p>
+      </section>
+      <section id="coach">
+        <h2>Who will be coaching?</h2>
+        <p>
+          The group is founded by Katrin Kampfrath who will also be a coach. Ideally, though, the group should have 2, maybe 3 main coaches to join the knowledge, share the time, distribute over several shoulders basically. If you are interested, feel free to contact <a href="http://twitter.com/cssstudies">via Twitter</a> (DMs are open).
+        </p>
+      </section>
+      <section id="contact">
+        <h2>Contact</h2>
+        <p>
+          Updates can be found on <a href="http://twitter.com/cssstudies" title="Twitter of CSSstudies">Twitter</a>. This website is hosted on <a href="https://github.com/CSSstudies" title="Github profile of CSSstudies">Github</a> and is supposed to grow with and within the group.
+        </p>
+      </section>
+    </div>
   </body>
 </html>
