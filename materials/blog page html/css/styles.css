@@ -1,0 +1,25 @@
+/* external style */
+h1 {
+  color: lime;
+}
+
+a {
+  color: pink;
+  text-decoration: none;
+}
+
+header {
+  background-color: aqua;
+}
+
+#page-blog {
+  background-color: cornsilk;
+  width: 600px;
+  margin: 50px;
+  border: 3px solid red;
+  padding: 30px;
+}
+
+.meta {
+
+}
