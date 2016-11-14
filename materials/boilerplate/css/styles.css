@@ -1,0 +1,26 @@
+/*
+  Here are some basic styles for the boilerplate index.html.
+  Change, add or remove styles as you need them.
+ */
+
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #444;
+}
+
+h1 {
+  color: #cd853f;
+}
+
+.container {
+  margin: 3rem auto;
+  width: 60%;
+}
+
+.info {
+  color: #777;
+}
