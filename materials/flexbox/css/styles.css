@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #444;
+}
+
+h1 {
+  color: #cd853f;
+}
+
+ul {
+  margin: 0;
+  list-style: none;
+}
+
+.container {
+  margin: 3rem auto;
+  width: 80%;
+}
+.navigation-single,
+.nav-container,
+.text-container,
+.image-container {
+  border: 1px solid #777;
+  padding: 1rem;
+}
+
+.navigation-single li,
+.navigation li,
+.image,
+.text {
+  border: 1px solid brown;
+}
+
+.image img {
+  max-width: 100%;
+  height: auto;
+}
