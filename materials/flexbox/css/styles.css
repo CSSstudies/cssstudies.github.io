@@ -4,16 +4,36 @@ body {
   color: #444;
 }
 
+section {
+  font-size: 5em;
+  height: 90%;
+  height: calc(100% - 70px);
+}
+
 h1 {
   color: #cd853f;
+  font-size: 3em;
 }
 
 ul {
-  margin: 0;
+  margin: 10px;
+  margin: 10px 10px 10px 10px;
+  margin: 10px 10px;
+  margin: 10px 20px 10px;
+
   list-style: none;
 }
 
+.subtitle-top {
+  float: left;
+}
+
+.subtitle-top::after {
+
+}
+
 .container {
+  clear: left;
   margin: 3rem auto;
   width: 80%;
 }
@@ -29,6 +49,7 @@ ul {
 .navigation li,
 .image,
 .text {
+  padding: 7px 10px 7px;
   border: 1px solid brown;
 }
 
